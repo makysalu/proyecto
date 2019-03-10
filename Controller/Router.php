@@ -6,9 +6,14 @@
   */
 
   class Router{
+    private $url=null;
 
     function __construct(){
-      echo "Lanzamos Router";
+
+    }
+    public function start_router(){
+      $this->url =$_SERVER['REQUEST_URI'];
+      var _dump($this->url);
     }
   }
  ?>

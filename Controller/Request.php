@@ -12,7 +12,7 @@
     private $params=null;
 
     function __construct(){
-      echo "Lanzamos Request";
+      echo "LanRequest";
     }
 
     /**

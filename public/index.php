@@ -3,4 +3,5 @@
   use RC\Controller\Kernel;
 
   $k=new Kernel();
+  $k->start_kernel();
 ?>

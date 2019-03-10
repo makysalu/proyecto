@@ -13,5 +13,8 @@
       $this->router=new Router();
       $this->request=new Request();
     }
+    public function start_kernel(){
+      $this->router->start_router();
+    }
   }
  ?>
