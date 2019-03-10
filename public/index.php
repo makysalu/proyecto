@@ -4,4 +4,7 @@
 
   $k=new Kernel();
   $k->start_kernel();
+  $k->start_action();
+
+
 ?>

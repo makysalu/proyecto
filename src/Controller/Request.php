@@ -7,12 +7,11 @@
 
   class Request{
 
-    private $controla=null;
-    private $action=null;
+    private $controlador=null;
+    private $accion=null;
     private $params=null;
 
     function __construct(){
-      echo "Lanzamos Request";
     }
 
     /**
@@ -20,45 +19,45 @@
      *
      * @return mixed
      */
-    public function getControla()
+    public function getControlador()
     {
-        return $this->controla;
+        return $this->controlador;
     }
 
     /**
      * Set the value of namespace RC\Controller;
      *
-     * @param mixed controla
+     * @param mixed controlador
      *
      * @return self
      */
-    public function setControla($controla)
+    public function setControlador($controlador)
     {
-        $this->controla = $controla;
+        $this->controlador = $controlador;
 
         return $this;
     }
 
     /**
-     * Get the value of Action
+     * Get the value of Accion
      *
      * @return mixed
      */
-    public function getAction()
+    public function getAccion()
     {
-        return $this->action;
+        return $this->accion;
     }
 
     /**
-     * Set the value of Action
+     * Set the value of Accion
      *
-     * @param mixed action
+     * @param mixed accion
      *
      * @return self
      */
-    public function setAction($action)
+    public function setAccion($accion)
     {
-        $this->action = $action;
+        $this->accion = $accion;
 
         return $this;
     }
